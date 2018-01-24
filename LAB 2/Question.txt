@@ -1,0 +1,37 @@
+For the tables created above, write the SQL queries for the following –
+1) Retrieve the list of names and the cities of the entire customer.
+2) List the various items available.
+3) List the customer who is located in Allahabad.
+4) Find the item whose selling price is greater than 2000 and less than or equal to 5000.
+5) Add a new column NEW_PRICE into the Item table.
+6) Rename the column item_rate of Sales_Order to new_item_rate.
+7) List the Item in sorted order of their description.
+8) Display the order number and date on which the customer placed their order.
+9) Delete all the records having delivery date before 25th August 2008.
+10) Change the delivery date of order number SON01008 to 16-08- 08.
+11) Change the bal_due of cust_no CU01003 to 1200.
+12) Change the Sell_price of DVD writer to 3000.
+13) Find the item with description as ‘HDD1034’ and ‘DVDRW’.
+14) List the names, city and state of the customer not in the state of ‘Uttar Pradesh’.
+15) List of all orders that were canceled in the month of March.
+16) Update the salary=10000 of “Rohan Singh” who is from naini, Allahabad.
+17) Add the field Cust_mobile in customer table that can holds a number up to 10-digit in length.
+18) Retrieve customer information that is NOT in allahabad OR lucknow.
+19) Find the names of all customer/customers whose name is/are starting with the letter ‘p’.
+20) Retrieve Sales_order_date, cust _id, Salesman_id, Delivery_date from SalesOrder table where the value
+contained within the field Tot_quantity_order is between15 to 50.
+21) Display the customer id whose delivery date is ‘30-aug- 2008’.
+22) Display the sales order date and delivery date in the following format.
+[Hint: use CONVERT (), GETDATE ()]
+a. dd-mm- yy(12-03- 87)
+b. dd-mm- yyyy(12-03- 1987)
+c. dd mm yy(12 03 87)
+23) Display the cust_name which starts with any character, followed by &quot;an&quot; from the &quot;Customer&quot; table.
+24) Display the cust_name which starts with &quot;pri&quot;, followed by any three characters, followed by &quot;an&quot;,
+followed by any character, followed by &quot;a&quot; from the &quot;Customer&quot; table.
+25) Display the Salesman_name which starts with &quot;r&quot; or &quot;s&quot; or &quot;k&quot; from the &quot;Salesman&quot; table.
+26) Destroy the Sales order table and all the data held in it.
+27) Display the system date and time.
+28) Display the columns and their attributes of the Customer table.
+
+29) Rename the table Salesman to Sales_man.
